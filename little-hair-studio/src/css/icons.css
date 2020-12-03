@@ -1,0 +1,55 @@
+.roundIcon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    /*box-shadow: inset 0 0 0 1px #346aaf;*/
+    box-shadow: inset 0 0 0 0px gainsboro;
+    border-radius: calc(30px*0.5);
+
+    overflow: hidden;
+}
+.icon {
+    cursor: pointer;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    margin-left: calc(30px / 5);
+    margin-right: calc(30px / 5);
+    border-radius: calc(30px * 0.5);
+    overflow: hidden;
+
+    position: relative;
+    font-size: calc(30px/2);
+    margin-top: calc(30px/4);
+    transition: all 0.25s ease;
+}
+
+/*.icon::before, .icon::after {*/
+/*    content: '';*/
+/*    position: absolute;*/
+/*    top: 0;*/
+/*    left: 0;*/
+/*    height: 100%;*/
+/*    width: 100%;*/
+/*    transition: all 0.25s ease;*/
+/*    border-radius: calc(30px * 0.5);*/
+/*}*/
+
+.content{
+    position: relative;
+    font-size: calc(30px/2);
+    margin-top: calc(30px/4);
+    transition: all 0.25s ease;
+}
+
+/*.icon-fill::before {*/
+/*    transition-duration: 0.5s;*/
+/*    box-shadow: inset 0 0 0 1px #346aaf;*/
+/*}*/
+
+
+/*.icon-fill:hover::before {*/
+/*    box-shadow: inset 0 0 0 30px #346aaf;*/
+/*}*/

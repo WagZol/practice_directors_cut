@@ -1,0 +1,63 @@
+body {
+  margin: 0;
+}
+
+/*FONT*/
+
+body{
+  font-family: 'Gloria Hallelujah', cursive;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 22px;
+}
+
+section{
+  scroll-snap-align: start;
+}
+
+h1, h2, h3, h4{
+  font-family: 'Fredericka the Great', cursive;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 35px;
+}
+
+h1.light, h2.light, h3.light, h4.light{
+  color: aqua;
+}
+
+span.light, a.light{
+  color: gainsboro;
+}
+
+span.dark{
+  color: white;
+}
+
+h1.dark, h2.dark, h3.dark, h4.dark{
+  color: black;
+}
+
+
+
+h1{
+  font-size: 40px;
+  margin-bottom: 40px;
+}
+
+h2{
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+
+h3{
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+h4{
+  font-size: 15px;
+  margin-bottom: 15px;
+
+}

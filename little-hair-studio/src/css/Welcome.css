@@ -1,0 +1,66 @@
+
+/*IMAGE*/
+
+img#art1, img#workstation{
+    width: 100%;
+}
+
+section#welcome{
+    padding-top: 150px;
+    background: url("../images/black-wallpaper-1.jpg");
+    overflow: hidden;
+    display: flex;
+    align-content: center;
+}
+
+div.container{
+    flex-direction: column;
+}
+
+img.divider{
+    width: 100vw;
+}
+
+
+
+@media only screen and (max-width: 767px) {
+
+    div#divider-wrapper {
+        /*margin-top: -1.3%;*/
+        /*margin-bottom: -2.2%;*/
+        margin-top: -1.5vh;
+        margin-bottom:-1.9vh;
+    }
+
+    section#welcome{
+        padding-top: 140px;
+        padding-bottom: 30vh;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+
+    div#divider-wrapper {
+        margin-top: -1.5%;
+        margin-bottom: -2.8%;
+        /*margin-top: -2vh;*/
+        /*margin-bottom: -2.8vh;*/
+    }
+}
+
+@media only screen and (min-width: 992px) {
+
+    div#divider-wrapper {
+        margin-top: -1.5%;
+        margin-bottom: -2.5%;
+    }
+}
+/*    img#art1, img#workstation{*/
+/*        width: 300px;*/
+/*    }*/
+
+/*    div#welcome-text{*/
+/*        max-width: 400px;*/
+/*        word-wrap: break-word;*/
+/*    }*/
+/*}*/

@@ -1,0 +1,195 @@
+
+
+
+/*BACKGROUND*/
+section#contact {
+    background: url("../images/black-wallpaper-1.jpg");
+    padding-top: 70px;
+}
+
+div.container {
+    flex-direction: column;
+}
+
+
+/*DIVIDER*/
+img.divider {
+    width: 100vw;
+}
+
+/*ICONS*/
+div#icon-col {
+    padding-right: 0px;
+}
+
+div#icon-col .svg-inline--fa {
+    font-size: 17px;
+}
+
+/*SOCIAL-BUTTONS*/
+div#social-holder{
+    margin-top: 20px;
+    width: 75vw;
+}
+
+img#social-holder-background{
+    width: 60%;
+    height: 99px;
+}
+
+div#social-links{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    /*padding: 0px 40px 0px 40px;*/}
+
+a.social-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    margin: 0px 7vw 0px 7vw;
+    font-size: 30px;
+}
+
+
+svg.fa-facebook{
+    width:30px;
+    height: 30px;
+    border-radius: calc(30px*0.5);
+}
+
+svg.fa-facebook:hover{
+    color: #346aaf;
+    background: gainsboro;
+}
+
+
+svg.fa-youtube{
+    height: 27.5px;
+    border-radius: calc(30px*0.25);
+}
+
+svg.fa-youtube:hover{
+    color: #f50405;
+    background: gainsboro;
+
+}
+
+svg.fa-instagram{
+    height: 28px;
+    border-radius: calc(30px*0.25);
+}
+
+svg.fa-instagram:hover{
+    background: #d6249f;
+    background: radial-gradient(circle at 30%
+    107%, #fdf497 0%, #fdf497
+    5%, #fd5949 45%, #d6249f
+    60%, #285AEB 90%);
+}
+
+/*GOOGLE-MAPS*/
+
+.nvs {
+    position: relative;
+    text-align: right;
+    height: 325px;
+    width: 643px;
+}
+
+#gmap_canvas img {
+    max-width: none !important;
+    background: none !important
+}
+
+@media only screen and (max-width: 767px) {
+
+    div#divider-wrapper {
+        margin-top: -1.5vh;
+        margin-bottom: -1.9vh;
+    }
+
+    div#contact-text{
+        width: 100%;
+    }
+
+    img#social-holder-background{
+        width: 100%;
+    }
+
+    section#contact {
+        padding-bottom: 30vh;
+    }
+
+}
+
+
+
+div#googlemaps-div-1 {
+    overflow: hidden;
+    width: 100%;
+    position: relative;
+}
+
+div#googlemaps-div-1 iframe{
+    border-radius: 25px;
+}
+
+div#googlemaps-div-2 {
+    position: absolute;
+    width: 80%;
+    bottom: 10px;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    color: #000;
+    text-align: center
+}
+
+div#googlemaps-div-2 small {
+    line-height: 1.8;
+    font-size: 0px;
+    background: #fff;
+}
+
+
+@media only screen and (max-width: 767px) {
+    section#contact{
+        padding-top: 140px;
+        padding-bottom: 20vh;
+    }
+
+
+    div#open-time{
+        text-align: center;
+        margin-bottom: 20px;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+
+    div#divider-wrapper {
+        margin-top: -1.5%;
+        margin-bottom: -2.8%;
+    }
+
+    div#contact-text{
+        width: 90%;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+
+    div#divider-wrapper {
+        margin-top: -1.5%;
+        margin-bottom: -2.5%;
+    }
+
+    div#contact-text{
+        width: 80%;
+    }
+}

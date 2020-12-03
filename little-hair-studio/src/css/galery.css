@@ -1,0 +1,45 @@
+
+section#galery{
+    background: url("../images/black-wallpaper-1.jpg");
+    padding-top: 145px;
+    padding-bottom: 30vh;
+}
+
+img.divider{
+    width: 100vw;
+}
+
+.grid-container .background{
+    -webkit-box-shadow:inset 0px 0px 0px 1px gainsboro;
+    -moz-box-shadow:inset 0px 0px 0px 1px gainsboro;
+    box-shadow:inset 0px 0px 0px 1px gainsboro;
+}
+
+.border{
+    border-color: #282c34 !important;
+    border-width: 2px !important;
+}
+
+@media only screen and (max-width: 767px) {
+
+    div#divider-wrapper {
+        margin-top: -1.5vh;
+        margin-bottom:-1.9vh;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+
+    div#divider-wrapper {
+        margin-top: -1.5%;
+        margin-bottom: -2.8%;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+
+    div#divider-wrapper {
+        margin-top: -1.5%;
+        margin-bottom: -2.5%;
+    }
+}
