@@ -53,9 +53,11 @@ class Contact extends React.Component {
                         </div>
                         <div className="d-flex flex-column col-md-6 col-sm-12 justify-content-center">
                             <div id="color-filter"></div>
+
+
                             <div id="googlemaps-div-1">
                                 <iframe width="100%" height="350px"
-                                        src="https://maps.google.com/maps?hl=en&amp;q=littlehairstudio+(The Little Hair Studio)&amp;ie=UTF8&amp;t=&amp;z=10&amp;iwloc=B&amp;output=embed"
+                                        src="https://maps.google.com/maps?hl=en&amp;q=fleet%20street%2066&amp;ie=UTF8&amp;t=&amp;z=17&amp;iwloc=B&amp;output=embed"
                                         frameBorder="0" scrolling="no" marginHeight="0" marginWidth="0">
                                 </iframe>
                                 <div id="googlemaps-div-2">
